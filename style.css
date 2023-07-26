@@ -1,0 +1,85 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.logo {
+    text-transform: capitalize;
+    color: #000;
+    word-spacing: -5px;
+}
+
+.highlight {
+    color: red;
+}
+
+nav {
+    padding: 5px 15px;
+}
+
+nav ul {
+    word-spacing: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-transform: capitalize;
+}
+
+.pic {
+    width: 400px;
+    height: 400px;
+    background: #333;
+    border-radius: 100%;
+    background-image: url(./img/img-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -30px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.icons {
+    display: flex;
+    text-align: center;
+}
+
+.socials {
+    width: 50px;
+    height: 50px;
+    background: #000;
+    margin-right: 15px;
+    color: #fff;
+    margin-top: 10px;
+    text-transform: capitalize;
+
+}
+
+.socials p {
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.text {
+    margin-top: 50px;
+}
